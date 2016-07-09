@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/profileTutor1"
+        android:layout_marginBottom="10dp"
+        android:layout_columnWeight="1"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_toRightOf="@+id/profileTutor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="@dimen/titleSize"
+            android:text="Mohamadou Ly"
+            android:id="@+id/tutorName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/profileTutor1"
+            android:layout_below="@+id/tutorName1"
+            android:layout_gravity="center"
+            android:text="@string/programStudy"
+            android:id="@+id/programOfStudy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/profileTutor1"
+            android:layout_below="@+id/programOfStudy1"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="@string/languages"
+            android:id="@+id/languagesSpoken1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:background="@color/colorPrimary"
+        android:text="Select tutor"
+        android:id="@+id/matchingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileTutor1"/>
+
+    <LinearLayout
+        android:id="@+id/allCourses"
+        android:layout_below="@+id/matchingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Tutoring Courses:"
+            android:id="@+id/tutoringTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text="@string/course1"
+            android:id="@+id/coursesT1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text="@string/course2"
+            android:id="@+id/courses2T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text="@string/course3"
+            android:id="@+id/courses3T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RatingBar
+        android:rating="4"
+        android:isIndicator="true"
+        android:id="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/allCourses"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/comments"
+        android:textSize="@dimen/titleSize"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments"/>
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/comments1"
+        android:textSize="20dp"
+        android:layout_below="@+id/comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clair and explain well"/>
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@+id/comments1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not clear enough"/>
+</RelativeLayout>

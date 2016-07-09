@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Tutor+</string>
+    <string name="welcome">Get started </string>
+    <string name="tutoring101">101 TUTORING</string>
+    <string name="help">Help</string>
+    <string name="create_account">No account yet? Create one</string>
+    <string name="slogant">While we teach, we learn</string>
+    <string name="bestTutor">Best Tutor in Math</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="fullName">Full name</string>
+    <string name="programStudy">2nd in Computer Science</string>
+    <string name="course1">ITI1500 or ITI1100</string>
+    <string name="course2">ITI1500 or ITI1100</string>
+    <string name="course3">ITI1521 or ITI1121</string>
+    <string name="languages">Speak both French and English</string>
+    <string name="creaditCard">1234 5678 9012 3456</string>
+    <string name="termAndCondition">By creationg an Tutor+ account. You agree to the</string>
+    <string name="condition">Terms, conditions and privacy Policy</string>
+    <shape name="rectangle">
+        <solid android:color="#ffffff" />
+        <stroke android:width="1dip" android:color="#4fa5d5"/>
+    </shape>
+</resources>

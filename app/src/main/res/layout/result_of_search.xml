@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            style="@style/profile"
+            android:layout_marginBottom="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:layout_columnWeight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="@dimen/titleSize"
+                android:text="Mohamadou Ly"
+                android:id="@+id/tutorName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/programStudy"
+                android:id="@+id/programOfStudy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            style="@style/profile"
+            android:layout_marginBottom="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:layout_columnWeight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="@dimen/titleSize"
+                android:text="Mohamadou Ly"
+                android:textColor="@color/black"
+                android:id="@+id/tutorName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="@string/programStudy"
+                android:id="@+id/programOfStudy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            style="@style/profile"
+            android:layout_marginBottom="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:layout_columnWeight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="@dimen/titleSize"
+                android:text="Mohamadou Ly"
+                android:id="@+id/tutorName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/programStudy"
+                android:id="@+id/programOfStudy3"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            style="@style/profile"
+            android:layout_marginBottom="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:showDividers="end"
+            android:layout_columnWeight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="@dimen/titleSize"
+                android:text="Mohamadou Ly"
+                android:id="@+id/tutorName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/programStudy"
+                android:id="@+id/programOfStudy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            style="@style/profile"
+            android:layout_marginBottom="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <LinearLayout
+            android:textColor="@color/black"
+            android:layout_columnWeight="2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="@dimen/titleSize"
+                android:text="Mohamadou Ly"
+                android:id="@+id/tutorName5"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/programStudy"
+                android:id="@+id/programOfStudy5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
